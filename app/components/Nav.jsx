@@ -13,7 +13,7 @@ const Nav = (props) => {
             </div>
             <div className="top-bar-right">
                 <ul className="menu">
-                    <li className="menu-text">Created by Ashley Donohoe</li>
+                    <li className="menu-text">Created by <a href="#">Ashley Donohoe</a></li>
                 </ul>
             </div>
         </div>
