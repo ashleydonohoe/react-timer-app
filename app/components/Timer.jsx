@@ -52,10 +52,10 @@ let Timer = React.createClass({
         this.timer = undefined;
     },
 
-    handleSetTimer: function (seconds) {
+    handleSetTimer: function () {
         console.log("Handle set timer");
         this.setState({
-            count: seconds,
+            count: 0,
             timerStatus: "started"
         });
     },
